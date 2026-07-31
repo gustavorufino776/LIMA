@@ -1,0 +1,9 @@
+body{
+    background-image: url('yuri\ lindão.webp');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    background-size: 900px;
+}
