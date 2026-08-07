@@ -102,6 +102,12 @@ body {
     color: var(--secundary-color);
 }
 
+.sidebar img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+}
+
 .cards{
     width: 70%;
 }
@@ -160,5 +166,22 @@ body {
 @media(max-width: 768px){
     .main-content{
         flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+    .card img{
+        width: 100%;
+        border-radius: var(--border-radius);
     }
 }
